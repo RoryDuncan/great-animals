@@ -1,7 +1,7 @@
 {
   "name": "great-animals",
   "version": "0.0.0",
-  "description": "Generate random statements about real animals.",
+  "description": "Generate nice statements about real animals.",
   "main": "./bin/index.js",
   "scripts": {
     "tests": "node ./tests/test.js"
