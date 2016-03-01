@@ -2,9 +2,9 @@
   "name": "great-animals",
   "version": "0.0.0",
   "description": "Generate random statements about real animals.",
-  "main": "index.js",
+  "main": "./bin/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tests": "node ./tests/test.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/RoryDuncan/great-animals/issues"
   },
-  "homepage": "https://github.com/RoryDuncan/great-animals"
+  "homepage": "https://github.com/RoryDuncan/great-animals",
+  "dependencies": {
+    "jsonfile": "^2.2.3"
+  }
 }
