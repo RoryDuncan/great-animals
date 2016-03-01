@@ -4,7 +4,7 @@
   "description": "Generate nice statements about real animals.",
   "main": "./bin/index.js",
   "scripts": {
-    "tests": "node ./tests/test.js"
+    "test": "node ./tests/test.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/RoryDuncan/great-animals",
   "dependencies": {
+    "commander": "^2.9.0",
     "jsonfile": "^2.2.3"
   }
 }
