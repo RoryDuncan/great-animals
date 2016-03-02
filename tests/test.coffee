@@ -21,7 +21,8 @@ tests = [
     assert tests, t[t.length - 1].length is 10, "options.tokenLength should adjust the token length"
   , () ->
     # delimiter option
-    assert tests, animal({delimiter: "_"}).indexOf "-" is -1,  "options.delimiter should change the delimiter"
+    animal = animal({delimiter: "_"})
+    assert tests, animal.indexOf "-" is -1 and animal.indexOf " " is -1,  "options.delimiter should change the delimiter"
 ]
 
 

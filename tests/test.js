@@ -30,9 +30,10 @@
       }).split("-");
       return assert(tests, t[t.length - 1].length === 10, "options.tokenLength should adjust the token length");
     }, function() {
-      return assert(tests, animal({
+      animal = animal({
         delimiter: "_"
-      }).indexOf("-" === -1, "options.delimiter should change the delimiter"));
+      });
+      return assert(tests, animal.indexOf("-" === -1 && animal.indexOf(" " === -1, "options.delimiter should change the delimiter")));
     }
   ];
 
