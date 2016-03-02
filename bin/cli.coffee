@@ -5,11 +5,15 @@ animals = require './index.js'
 
 program
 .version(pkg.version)
-.option("-c  --count", "the number of animal uuids to generate.")
-.option("-t  --tokenlength", "The length of the token generated. Pass 0 to not have a token.")
+.option("-c, --count <count>", "the number of animal uuids to generate.", parseInt)
+.option("-t, --tokenlength <length>", "The length of the token generated. Pass 0 to not have a token.", parseInt)
+.option("-l, --longnames", "Use scientific names. (Longer)")
 .parse(process.argv);
 
 options = {};
+
+if program.longnames
+  options.names = "scientific"
 
 if program.tokenlength
   options.tokenLength = Math.min(48, Math.max(0, program.tokenlength))
