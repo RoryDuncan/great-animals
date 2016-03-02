@@ -77,11 +77,11 @@ Using animal names that have been simplified
 
 Using scientific animal names.
 
-1. `luxurious-north-american river otter-2e70f9`
+1. `luxurious-north-american-river-otter-2e70f9`
 2. `clever-ornate-rock-dragon-97fce3`
 3. `flawless-black-cheeked-waxbill-cf6b0c`
 4. `creative-dark-winged-trumpeter-d1d157`
-5. `strong-south-american-sea lion-d1f7c0`
+5. `strong-south-american-sea-lion-d1f7c0`
 6. `thorough-white-tailed-deer-0a158a`
 7. `perky-purple-moorhen-db9c00`
 8. `stupendous-paca-71193f`
