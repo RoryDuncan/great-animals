@@ -61,7 +61,7 @@ Using animal names that have been simplified
 12. `well-groomed-sifaka-657511`
 13. `supportive-secretary-bird-b10dec`
 14. `mighty-tayra-d8e653`
-15. `luxurious--grison-2908dd`
+15. `luxurious-grison-2908dd`
 16. `mighty-rhea-0c5e42`
 17. `unique-raven-fbfbf3`
 18. `helpful-shrike-21ed7a`
@@ -77,7 +77,7 @@ Using animal names that have been simplified
 
 Using scientific animal names.
 
-1. `luxurious--north-american river otter-2e70f9`
+1. `luxurious-north-american river otter-2e70f9`
 2. `clever-ornate-rock-dragon-97fce3`
 3. `flawless-black-cheeked-waxbill-cf6b0c`
 4. `creative-dark-winged-trumpeter-d1d157`
