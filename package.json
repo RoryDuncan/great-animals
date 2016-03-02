@@ -4,7 +4,8 @@
   "description": "Generate nice statements about real animals.",
   "main": "./bin/index.js",
   "scripts": {
-    "test": "node ./tests/test.js"
+    "test": "node ./tests/test.js",
+    "cli": "node ./bin/cli.js"
   },
   "repository": {
     "type": "git",
