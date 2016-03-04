@@ -66,7 +66,7 @@
     items = [];
     options = extend(defaults, options);
     group = animals[options.names];
-    animal = group[intRange(group.length)].replace(/[ -]+/g, options.delimiter);
+    animal = group[intRange(group.length)];
     adjective = adjectives[intRange(adjectives.length)];
     token = generateToken(options.tokenLength);
     items.push(adjective);
@@ -75,7 +75,7 @@
       items.push(token);
     }
     result = items.join(options.delimiter);
-    result = result.replace(" ", options.delimiter);
+    result = result.replace(/[ -]+/g, options.delimiter);
     return result;
   };
 
