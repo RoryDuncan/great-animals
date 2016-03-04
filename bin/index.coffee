@@ -39,8 +39,7 @@ module.exports = (options = {}) ->
   options = extend defaults, options
   group = animals[options.names]
   animal = group[intRange(group.length)]
-  .replace(/ /g, options.delimiter)
-  .replace(/-/g, options.delimiter)
+  .replace(/[ -]+/g, options.delimiter)
   adjective = adjectives[intRange(adjectives.length)]
   token = generateToken(options.tokenLength)
   
