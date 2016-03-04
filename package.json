@@ -5,7 +5,8 @@
   "main": "./bin/index.js",
   "scripts": {
     "test": "node ./tests/test.js",
-    "cli": "node ./bin/cli.js"
+    "cli": "node ./bin/cli.js",
+    "example": "echo '\n25 Basic Examples:\n' && node ./bin/cli.js -c 25 && echo '\n25 Scientific Examples:\n' && node ./bin/cli.js -lc 25"
   },
   "repository": {
     "type": "git",
