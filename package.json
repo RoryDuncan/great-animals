@@ -1,6 +1,6 @@
 {
   "name": "great-animals",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Generate nice statements about real animals.",
   "main": "./bin/index.js",
   "scripts": {
