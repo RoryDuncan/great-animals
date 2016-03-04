@@ -3,14 +3,14 @@
 
 ### Introduction
 
-great-animals is a npm module that allows you to create fancy [uuid's](https://en.wikipedia.org/wiki/Universally_unique_identifier), similar to [haikunator](https://github.com/Atrox/haikunatorjs) and others.
+great-animals is a npm module that allows you to create fancy [uuid's](https://en.wikipedia.org/wiki/Universally_unique_identifier), similar to [haikunatorjs](https://github.com/Atrox/haikunatorjs) and others.
 
 ### Installation, Usage, and Options
 
 
 #### Installation
 
-The recommended usage is to install `great-animals` via npm, as outlined below:
+Install `great-animals` via npm, as outlined below:
 
 ```
 $ npm install great-animals
