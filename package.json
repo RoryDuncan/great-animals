@@ -5,6 +5,7 @@
   "main": "./bin/index.js",
   "scripts": {
     "test": "node ./tests/test.js",
+    "perftest": "node ./tests/performance.js",
     "cli": "node ./bin/cli.js",
     "example": "echo '\n25 Basic Examples:\n' && node ./bin/cli.js -c 25 && echo '\n25 Scientific Examples:\n' && node ./bin/cli.js -lc 25"
   },
@@ -21,5 +22,8 @@
   "dependencies": {
     "commander": "^2.9.0",
     "jsonfile": "^2.2.3"
+  },
+  "devDependencies": {
+    "performance-now": "^0.2.0"
   }
 }
